@@ -1,0 +1,24 @@
+{
+  "object": "object_calibration1",
+  "camera_id": "2C1700207369",
+  "simulated": false,
+  "timestamp": "2026-10-20T11:38:39.900339",
+  "raw_pixel_format": "BayerBG12Packed",
+  "raw_width": 4096,
+  "raw_height": 3000,
+  "raw_size_bytes": 18432000,
+  "raw_validation": "unverified",
+  "exposure_time_us": 8000.0,
+  "position": [
+    0.1579,
+    0.5484,
+    0.6333,
+    -0.48382,
+    -0.30115,
+    0.78282,
+    0.24984
+  ],
+  "waypoint": 10,
+  "image_file": "object_calibration1_wp_10.jpg",
+  "raw_file": "object_calibration1_wp_10.raw"
+}

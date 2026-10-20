@@ -1,0 +1,7 @@
+calibration_debug
+calibration_tf2.txt
+calibration.yaml
+/images/*
+!/images/example_set/
+/poses/*
+!/poses/example_set/
