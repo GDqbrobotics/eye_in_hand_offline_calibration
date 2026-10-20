@@ -1,0 +1,37 @@
+{
+  "paths": {
+    "images": "images",
+    "poses": "poses",
+    "output": "calibration.yaml",
+    "tf2_output": null,
+    "debug_dir": null
+  },
+  "board": {
+    "squares_x": 25,
+    "squares_y": 18,
+    "square_length_m": 0.0075,
+    "marker_length_m": 0.00525,
+    "dictionary": "DICT_5X5_250"
+  },
+  "frames": {
+    "parent": "tool0",
+    "child": "camera_link",
+    "tool0_to_optical": [
+      [1.0, 0.0, 0.0, 0.0],
+      [0.0, 0.0, 1.0, 0.0],
+      [0.0, -1.0, 0.0, 0.0],
+      [0.0, 0.0, 0.0, 1.0]
+    ]
+  },
+  "calibration": {
+    "minimum_valid_images": 3,
+    "minimum_charuco_corners": 4,
+    "hand_eye_method": "CALIB_HAND_EYE_TSAI",
+    "max_intrinsic_rms_px": 5.0,
+    "max_board_translation_consistency_rms_m": 0.01
+  },
+  "debug": {
+    "pixels_per_square": 80,
+    "overlay_image_count": 2
+  }
+}
